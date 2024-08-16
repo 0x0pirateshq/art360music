@@ -1,0 +1,34 @@
+*{
+    font-family: oswald;
+}
+
+body{
+    background-color: white;
+}
+
+
+.lead{
+    color: white;
+}
+
+.gradient-home {
+    background: linear-gradient(300deg, #3D0C11 ,#d30e35,#f5728c);
+    background-size: 180% 180%;
+    animation: gradient 18s quick infinite;
+}
+
+.gradient-contact {
+    background: linear-gradient(300deg, #3D0C11 ,#5e0114,#ee224b);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s quick infinite;
+}
+
+.gradient-about{
+    background: linear-gradient(300deg, #e00219 ,#a11f39,#e23255);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s quick infinite;
+}
+
+.mb-3{
+    font-weight: bold;
+}
